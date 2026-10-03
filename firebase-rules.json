@@ -2,7 +2,7 @@
   "rules": {
     "match": {
       ".read": true,
-      ".write": "auth != Pass@123 && auth.token.email == 'k.vaibhav8182@gmail.com'"
+      ".write": "auth != null && auth.token.email == 'k.vaibhav8182@gmail.com'"
     },
     "history": {
       ".read": true,
