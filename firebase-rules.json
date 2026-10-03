@@ -6,11 +6,11 @@
     },
     "history": {
       ".read": true,
-      ".write": "auth != null && auth.token.email == 'scorer@club.com'"
+      ".write": "auth != null && auth.token.email == 'k.vaibhav8182@gmail.com'"
     },
     "roster": {
-      ".read": "auth != null && auth.token.email == 'scorer@club.com'",
-      ".write": "auth != null && auth.token.email == 'scorer@club.com'"
+      ".read": "auth != null && auth.token.email == 'k.vaibhav8182@gmail.com'",
+      ".write": "auth != null && auth.token.email == 'k.vaibhav8182@gmail.com'"
     }
   }
 }
