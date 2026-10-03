@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "match": {
+      ".read": true,
+      ".write": "auth != null && auth.token.email == 'scorer@club.com'"
+    },
+    "history": {
+      ".read": true,
+      ".write": "auth != null && auth.token.email == 'scorer@club.com'"
+    },
+    "roster": {
+      ".read": "auth != null && auth.token.email == 'scorer@club.com'",
+      ".write": "auth != null && auth.token.email == 'scorer@club.com'"
+    }
+  }
+}
